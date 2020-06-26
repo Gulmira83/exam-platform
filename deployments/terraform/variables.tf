@@ -12,7 +12,7 @@ variable "deployment_endpoint" {
 
 
 variable "deployment_image" {
-  default = "fuchicorp.com/isitup"
+  default = "fuchicorp.com/example"
 }
 
 variable "deployment_environment" {
