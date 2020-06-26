@@ -2,11 +2,11 @@ variable "deployment_endpoint" {
   type = "map"
 
   default = {
-    test  = "test.example"
-    dev  = "dev.example"
-    qa   = "qa.example"
-    prod = "prod.example"
-    stage = "stage.example"
+    test  = "test.exam"
+    dev  = "dev.exam"
+    qa   = "qa.exam"
+    prod = "prod.exam"
+    stage = "stage.exam"
   }
 }
 
