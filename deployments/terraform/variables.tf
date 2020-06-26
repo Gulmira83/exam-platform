@@ -1,7 +1,3 @@
-
-variable "deployment_endpoint" {
-  type = "map"
-
 variable "deployment_endpoint" {
   type = "map"
 
