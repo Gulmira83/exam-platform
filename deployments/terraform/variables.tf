@@ -1,6 +1,3 @@
-variable "deployment_environment" {
-
-}
 
 variable "deployment_endpoint" {
   type = "map"
