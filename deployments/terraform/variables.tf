@@ -5,10 +5,15 @@ variable "deployment_environment" {
 variable "deployment_endpoint" {
   type = "map"
 
+variable "deployment_endpoint" {
+  type = "map"
+
   default = {
-    dev  = "dev.exam.fuchicorp.com"
-    qa   = "qa.exam.fuchicorp.com"
-    prod = "exam.fuchicorp.com"
+    test  = "test.example"
+    dev  = "dev.example"
+    qa   = "qa.example"
+    prod = "prod.example"
+    stage = "stage.example"
   }
 }
 
@@ -16,3 +21,5 @@ variable "deployment_endpoint" {
 variable "deployment_image" {
   
 }
+
+
