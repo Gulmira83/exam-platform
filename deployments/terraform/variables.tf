@@ -5,7 +5,7 @@ variable "deployment_endpoint" {
     test  = "test.exam"
     dev  = "dev.exam"
     qa   = "qa.exam"
-    prod = "prod.exam"
+    prod = "exam"
     stage = "stage.exam"
   }
 }
